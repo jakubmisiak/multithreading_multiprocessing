@@ -1,0 +1,129 @@
+
+        <html>
+        <head>
+        <title>Multithreading/Multiprocessing benchmark results</title>
+        <style>
+
+            body {
+            font-size: 10pt;
+            }
+
+            h2 {
+            padding-top: 10pt;
+            }
+
+            table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed ;
+            }
+
+            td, th {
+            border: 2px solid #b9b9b9;
+            padding: 10px;
+            text-align: center;
+            width: 25% ;
+            }
+
+            th {
+            background-color: #d5d5d5;
+            }
+
+            td {
+            }
+
+            tr:nth-child(odd) {
+            background-color: #eeeeee;
+            }
+        </style>
+        </head>
+        <body>
+        
+        <h1>Multithreading/Multiprocessing benchmark results</h1>
+        <p>
+        </p>
+        <h2>Execution environment</h2>
+        <p>
+
+        Python version: 3.8.5<br/>
+        Interpreter: CPython<br/>
+        Interpreter version: 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0]<br/>
+        Operating system: Linux<br/>
+        Operating system version: 5.8.0-50-generic<br/>
+        Processor: x86_64<br/>
+        CPUs: 8
+
+        </p>
+
+        <h2>Test results</h2>
+        <p>The following table shows detailed test results:</p>
+        <table>
+        <tr>
+            <th>Execution:</th>
+            <th>1&nbsp;thread (s)</th>
+            <th>4&nbsp;threads (s)</th>
+            <th>4&nbsp;processes (s)</th>
+            <th>processes based on number of CPUs (s)</th>
+        </tr>
+        <tr>
+<td>1</td>
+<td>83.803</td>
+<td>519.344</td>
+<td>99.040</td>
+<td>225.819</td>
+</tr>
+<tr>
+<td>2</td>
+<td>83.017</td>
+<td>518.694</td>
+<td>95.424</td>
+<td>224.905</td>
+</tr>
+<tr>
+<td>3</td>
+<td>83.063</td>
+<td>519.152</td>
+<td>98.279</td>
+<td>226.324</td>
+</tr>
+<tr>
+<td>4</td>
+<td>83.214</td>
+<td>517.824</td>
+<td>101.465</td>
+<td>226.152</td>
+</tr>
+<tr>
+<td>5</td>
+<td>83.156</td>
+<td>518.768</td>
+<td>92.634</td>
+<td>224.429</td>
+</tr>
+ 
+            </table>
+            <h2>Summary</h2>
+            <p>The following table shows the median of all results:</p>
+            <table>
+            <tr>
+                <th>Execution:</th>
+                <th>1&nbsp;thread (s)</th>
+                <th>4&nbsp;threads (s)</th>
+                <th>4&nbsp;processes (s)</th>
+                <th>processes based on number of CPUs (s)</th>
+            </tr>
+
+            <tr>
+                <td>Median:</td><td>83.156</td>
+<td>518.768</td>
+<td>98.279</td>
+<td>225.819</td>
+  </tr>
+
+                                </table><p>App author: Jakub Misiak</p>
+
+        </body>
+        </html>
+        
